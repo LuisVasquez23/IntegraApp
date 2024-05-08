@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { EmpleadoService } from '../empleado.service';
 import { ApiResponse } from '../../models/api-response-model.model';
 import Swal from 'sweetalert2';
+import { formatDate } from '../../utils/FormatDate';
 
 @Component({
   selector: 'app-empleado-list',
@@ -11,6 +12,7 @@ import Swal from 'sweetalert2';
 export class EmpleadoListComponent implements OnInit {
   empleados: any[] = [];
   defaultImagePath = 'http://localhost:5081/Fotos/sinImagen.jpg';
+  formatDate = formatDate;
 
   constructor(private empleadoService: EmpleadoService) { }
 
@@ -30,18 +32,6 @@ export class EmpleadoListComponent implements OnInit {
     });
   }
 
-  formatDate(date: any): string {
-    let formattedDate = '';
-
-    if (date instanceof Date || !isNaN(Date.parse(date))) {
-      const parsedDate = new Date(date);
-      formattedDate = parsedDate.toLocaleDateString('es-ES');
-    } else {
-      formattedDate = '';
-    }
-
-    return formattedDate;
-  }
 
   // ELIMINAR EMPLEADO
   eliminarEmpleado(id: number): void {

@@ -7,8 +7,6 @@ using IntegraApp.Application.Services.Empleado.Commands.DeleteEmpleadoCommand;
 using IntegraApp.Application.Services.Empleado.Commands.UpdateEmpleadoCommand;
 using IntegraApp.Application.Services.Empleado.Queries.GetAllEmpleadoQuery;
 using IntegraApp.Application.Services.Empleado.Queries.GetEmpleadoByIdQuery;
-using IntegraApp.WebApi.ViewModels.Empleado;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IntegraApp.WebApi.Controllers
@@ -56,21 +54,13 @@ namespace IntegraApp.WebApi.Controllers
         // CREATE EMPLEADO
         [HttpPost]
         public async Task<IActionResult> Create(
-                [FromForm] CreateEmpleadoViewModel model,
+                [FromForm] CreateEmpleadoModel model,
                 [FromServices] ICreateEmpleadoCommand createEmpleadoCommand,
                 [FromServices] IValidator<CreateEmpleadoModel> validator)
         {
 
-            CreateEmpleadoModel createEmpleadoModel = new CreateEmpleadoModel
-            {
-                Nombre = model.Nombre,
-                Apellido = model.Apellido,
-                Telefono = model.Telefono,
-                Correo = model.Correo,
-                FechaContratacion = model.FechaContratacion
-            };
 
-            var validate = validator.Validate(createEmpleadoModel);
+            var validate = validator.Validate(model);
 
             if (!validate.IsValid)
             {
@@ -84,8 +74,8 @@ namespace IntegraApp.WebApi.Controllers
 
             var fileName = await _imageFileManager.SaveAsync(fileModel);
 
-            createEmpleadoModel.FotoPath = $"{_baseUrl}/{fileName}";
-            var data = await createEmpleadoCommand.Execute(createEmpleadoModel);
+            model.FotoPath = $"{_baseUrl}/{fileName}";
+            var data = await createEmpleadoCommand.Execute(model);
 
             return StatusCode(StatusCodes.Status201Created, ResponseApiServices.Response(StatusCodes.Status201Created, data, "Ok"));
         }
@@ -93,50 +83,32 @@ namespace IntegraApp.WebApi.Controllers
         // UPDATE EMPLEADO
         [HttpPut]
         public async Task<IActionResult> Update(
-                [FromForm] UpdateEmpleadoViewModel model,
+                [FromForm] UpdateEmpleadoModel model,
                 [FromServices] IUpdateEmpleadoCommand updateEmpleadoCommand,
-                [FromServices] IGetEmpleadoByIdQuery getEmpleadoByIdQuery,
                 [FromServices] IValidator<UpdateEmpleadoModel> validator)
         {
 
-            UpdateEmpleadoModel updateEmpleadoModel = new UpdateEmpleadoModel
-            {
-                Id = model.Id,
-                Nombre = model.Nombre,
-                Apellido = model.Apellido,
-                Telefono = model.Telefono,
-                Correo = model.Correo,
-                FechaContratacion = model.FechaContratacion
-            };
-
-            var validate = validator.Validate(updateEmpleadoModel);
+            var validate = validator.Validate(model);
 
             if (!validate.IsValid)
             {
                 return StatusCode(StatusCodes.Status400BadRequest, ResponseApiServices.Response(StatusCodes.Status400BadRequest, validate.Errors, "Error"));
             }
 
-
-            var empleado = await getEmpleadoByIdQuery.Execute(updateEmpleadoModel.Id);
-
             var fileModel = new FileManagerModel
             {
                 Archivo = model.Archivo,
-                fileName = empleado.FotoPath?.Replace(_baseUrl , "")
+                fileName = model.FotoPath?.Replace(_baseUrl , "")
             };
 
             if (fileModel.Archivo != null)
             {
                 var fileName = await _imageFileManager.SaveAsync(fileModel);
 
-                updateEmpleadoModel.FotoPath = $"{_baseUrl}/{fileName}";
-            }
-            else
-            {
-                updateEmpleadoModel.FotoPath = empleado.FotoPath;
+                model.FotoPath = $"{_baseUrl}/{fileName}";
             }
 
-            var data = await updateEmpleadoCommand.Execute(updateEmpleadoModel);
+            var data = await updateEmpleadoCommand.Execute(model);
 
             if (!data)
             {

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "oUddMunhzda71MZBQxvQz0Ds9d98S/Tt9gNR9LJm/MA=",
+  "Source": "IntegraApp.WebApi",
+  "BasePath": "_content/IntegraApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IntegraApp.WebApi\\wwwroot",
+      "Source": "IntegraApp.WebApi",
+      "ContentRoot": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\wwwroot\\",
+      "BasePath": "_content/IntegraApp.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\wwwroot\\Fotos\\sinImagen.jpg",
+      "SourceId": "IntegraApp.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\wwwroot\\",
+      "BasePath": "_content/IntegraApp.WebApi",
+      "RelativePath": "Fotos/sinImagen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Fotos\\sinImagen.jpg"
+    }
+  ]
+}

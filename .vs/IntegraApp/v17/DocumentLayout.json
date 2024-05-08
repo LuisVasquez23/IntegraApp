@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B174537A-ED03-45F6-BCBA-58C777E86209}|src\\IntegraApp.WebApi\\IntegraApp.WebApi.csproj|c:\\users\\luis\\desktop\\proyectos\\integraprueba\\integraapp\\src\\integraapp.webapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B174537A-ED03-45F6-BCBA-58C777E86209}|src\\IntegraApp.WebApi\\IntegraApp.WebApi.csproj|solutionrelative:src\\integraapp.webapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "src\\IntegraApp.WebApi\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "src\\IntegraApp.WebApi\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowFwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T16:21:48.474Z",
+              "EditorCaption": ""
             }
           ]
         }

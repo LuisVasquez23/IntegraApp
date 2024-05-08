@@ -1,4 +1,6 @@
-﻿namespace IntegraApp.Application.Services.Empleado.Commands.UpdateEmpleadoCommand
+﻿using Microsoft.AspNetCore.Http;
+
+namespace IntegraApp.Application.Services.Empleado.Commands.UpdateEmpleadoCommand
 {
     public class UpdateEmpleadoModel
     {
@@ -9,5 +11,6 @@
         public string? Correo { get; set; }
         public string? FotoPath { get; set; }
         public DateTime FechaContratacion { get; set; }
+        public IFormFile? Archivo { get; set; }
     }
 }

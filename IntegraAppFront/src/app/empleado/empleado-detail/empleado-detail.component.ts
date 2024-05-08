@@ -3,6 +3,7 @@ import { Empleado } from '../../models/Empleado/empleado.model';
 import { EmpleadoService } from '../empleado.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiResponse } from '../../models/api-response-model.model';
+import { formatDate } from '../../utils/FormatDate';
 
 @Component({
   selector: 'app-empleado-detail',
@@ -11,7 +12,7 @@ import { ApiResponse } from '../../models/api-response-model.model';
 })
 export class EmpleadoDetailComponent {
   empleado: any;
-
+  formatDate = formatDate;
   defaultImagePath = 'http://localhost:5081/Fotos/sinImagen.jpg';
 
   constructor(

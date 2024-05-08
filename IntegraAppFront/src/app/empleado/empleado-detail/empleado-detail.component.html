@@ -7,7 +7,7 @@
       <p><strong>Apellido:</strong> {{ empleado.apellido }}</p>
       <p><strong>Teléfono:</strong> {{ empleado.telefono }}</p>
       <p><strong>Correo:</strong> {{ empleado.correo }}</p>
-      <p><strong>Fecha de Contratación:</strong> {{ empleado.fechaContratacion }}</p>
+      <p><strong>Fecha de Contratación:</strong> {{ formatDate(empleado.fechaContratacion) }}</p>
       <p><strong>Foto:</strong></p>
       <img [src]="empleado.fotoPath && !empleado.fotoPath.endsWith('/Fotos/')
                   ? empleado.fotoPath

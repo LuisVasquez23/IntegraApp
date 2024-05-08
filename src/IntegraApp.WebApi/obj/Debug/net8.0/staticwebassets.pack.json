@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\luis\\Desktop\\proyectos\\IntegraPrueba\\IntegraApp\\src\\IntegraApp.WebApi\\wwwroot\\Fotos\\sinImagen.jpg",
+      "PackagePath": "staticwebassets\\Fotos\\sinImagen.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IntegraApp.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IntegraApp.WebApi.props",
+      "PackagePath": "build\\IntegraApp.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IntegraApp.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\IntegraApp.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IntegraApp.WebApi.props",
+      "PackagePath": "buildTransitive\\IntegraApp.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
