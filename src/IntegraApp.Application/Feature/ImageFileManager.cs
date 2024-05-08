@@ -17,11 +17,12 @@ namespace IntegraApp.Application.Feature
 
             try
             {
+                string base_path = $"wwwroot{_fotosDirectory}";
 
                 // Validar que exista el directorio 
-                if (!Directory.Exists(Path.Combine("wwwroot" , _fotosDirectory)))
+                if (!Directory.Exists(base_path))
                 {
-                    Directory.CreateDirectory(Path.Combine("wwwroot", _fotosDirectory));
+                    Directory.CreateDirectory(base_path);
                 }
 
                 // Validar si existe el archivo

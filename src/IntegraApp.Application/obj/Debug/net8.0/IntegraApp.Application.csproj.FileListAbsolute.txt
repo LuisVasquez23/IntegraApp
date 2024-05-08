@@ -28,3 +28,4 @@ C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Applicat
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Application\obj\Debug\net8.0\refint\IntegraApp.Application.dll
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Application\obj\Debug\net8.0\IntegraApp.Application.pdb
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Application\obj\Debug\net8.0\ref\IntegraApp.Application.dll
+C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Application\obj\Debug\net8.0\IntegraApp.Application.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegraApp.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2562fdfd835004870cc01ef7ad6b2ac7a403b4a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b4786383560fdd403d49a3b5ccb8e02b90dbea3")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegraApp.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegraApp.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

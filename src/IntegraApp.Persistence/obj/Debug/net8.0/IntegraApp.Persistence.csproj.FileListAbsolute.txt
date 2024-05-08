@@ -36,3 +36,4 @@ C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Persiste
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Persistence\obj\Debug\net8.0\IntegraApp.Persistence.pdb
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Persistence\obj\Debug\net8.0\IntegraApp.Persistence.genruntimeconfig.cache
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Persistence\obj\Debug\net8.0\ref\IntegraApp.Persistence.dll
+C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.Persistence\obj\Debug\net8.0\IntegraApp.Persistence.sourcelink.json

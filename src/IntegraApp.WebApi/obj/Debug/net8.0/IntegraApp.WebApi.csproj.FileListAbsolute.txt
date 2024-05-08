@@ -289,3 +289,4 @@ C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.WebApi\o
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.WebApi\obj\Debug\net8.0\IntegraApp.WebApi.pdb
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.WebApi\obj\Debug\net8.0\IntegraApp.WebApi.genruntimeconfig.cache
 C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.WebApi\obj\Debug\net8.0\ref\IntegraApp.WebApi.dll
+C:\Users\luis\Desktop\proyectos\IntegraPrueba\IntegraApp\src\IntegraApp.WebApi\obj\Debug\net8.0\IntegraApp.WebApi.sourcelink.json
