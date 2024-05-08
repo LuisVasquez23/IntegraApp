@@ -1,0 +1,22 @@
+<div *ngIf="empleado">
+  <h2>Detalles del Empleado</h2>
+  <div class="row">
+
+    <div class="col-md-6 mb-2">
+      <p><strong>Nombre:</strong> {{ empleado.nombre }}</p>
+      <p><strong>Apellido:</strong> {{ empleado.apellido }}</p>
+      <p><strong>Teléfono:</strong> {{ empleado.telefono }}</p>
+      <p><strong>Correo:</strong> {{ empleado.correo }}</p>
+      <p><strong>Fecha de Contratación:</strong> {{ empleado.fechaContratacion }}</p>
+      <p><strong>Foto:</strong></p>
+      <img [src]="empleado.fotoPath && !empleado.fotoPath.endsWith('/Fotos/')
+                  ? empleado.fotoPath
+                  : defaultImagePath" class="img-fluid img-rounded" alt="Foto del empleado" width="320px">
+    </div>
+
+    <div class="col-md-12">
+      <a class="btn btn-secondary" [routerLink]="['/']">Regresar</a>
+    </div>
+    
+  </div>
+</div>

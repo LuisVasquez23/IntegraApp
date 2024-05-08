@@ -1,0 +1,6 @@
+@IntegraApp.WebApi_HostAddress = http://localhost:5081
+
+GET {{IntegraApp.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\bin\Debug\net8.0\IntegraApp.Domain.deps.json
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\bin\Debug\net8.0\IntegraApp.Domain.dll
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\bin\Debug\net8.0\IntegraApp.Domain.pdb
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.AssemblyInfoInputs.cache
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.AssemblyInfo.cs
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.dll
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\refint\IntegraApp.Domain.dll
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\IntegraApp.Domain.pdb
+C:\Users\luis\Desktop\proyectos\IntegraApp\src\IntegraApp.Domain\obj\Debug\net8.0\ref\IntegraApp.Domain.dll
